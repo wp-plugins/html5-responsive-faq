@@ -30,7 +30,7 @@ Adding a Frequently Asked Questions (FAQs) section to your website, either as a 
 
 
 
-For more support visit [Plugin Support](http://www.indatos.com/?ref=faq) We will be glad to help you.
+For more support visit [HTML5 Responsive FAQ](http://www.indatos.com/?ref=faq) plugin page. We will be glad to help you.
 
 == Installation ==
 The installation of this plugin is very simple. It takes only few minutes. There are two ways to install it:
