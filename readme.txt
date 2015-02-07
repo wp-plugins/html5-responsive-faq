@@ -91,3 +91,15 @@ Yes you can customize the design, color, font size etc to match your theme.
 = Can I add category for FAQs? =
 
 Yes you can add multiple categories.
+
+== Changelog ==
+
+= 1.2 =
+* CSS updates and compatibility updates
+
+= 1.0 =
+* First Version
+
+== Upgrade Notice ==
+* CSS and compatibility updates.
+

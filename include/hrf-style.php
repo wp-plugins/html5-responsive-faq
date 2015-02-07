@@ -39,6 +39,13 @@ function fn_hrf_styles()
                padding: 10px ;
                padding-left: 50px;
                margin: 0;
+               -webkit-touch-callout: none;
+               -webkit-user-select: none;
+               -khtml-user-select: none;
+               -moz-user-select: none;
+               -ms-user-select: none;
+               user-select: none;
+               outline-style:none;
             }
             .hrf-title.close-faq{
                cursor: pointer;
