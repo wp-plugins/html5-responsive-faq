@@ -5,10 +5,10 @@ jQuery(function($){
          var my_content_id = $(this).attr('data-content-id');
          $('#' + my_content_id ).slideToggle();
          $(this).toggleClass(function(){
-            if( $(this).is('.close')){
-               return 'open';
+            if( $(this).is('.close-faq')){
+               return 'open-faq';
             }else{
-               return 'close';
+               return 'close-faq';
             }
             
          });

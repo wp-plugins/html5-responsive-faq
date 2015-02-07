@@ -40,10 +40,10 @@ function fn_hrf_styles()
                padding-left: 50px;
                margin: 0;
             }
-            .hrf-title.close{
+            .hrf-title.close-faq{
                cursor: pointer;
             }
-            .hrf-title.close span{
+            .hrf-title.close-faq span{
                width: 30px;
                height: 30px;
                display: inline-block;
@@ -54,10 +54,10 @@ function fn_hrf_styles()
                margin-left: -42px;
                background: '.$bullets_bgcolor.' url('.plugins_url( 'html5-responsive-faq/images/open.png' ).') no-repeat center center;
             }
-            }.hrf-title.open{
+            }.hrf-title.open-faq{
             
             }
-            .hrf-title.open span{
+            .hrf-title.open-faq span{
                width: 30px;
                height: 30px;
                display: inline-block;

@@ -35,7 +35,7 @@ function fn_hrf_faqs($attr)
          $faq_query->the_post();
 
          $html .= '<article class="hrf-entry" id="hrf-entry-'.$faq_query->post->ID.'">
-                      <'.$head_tag.' class="hrf-title close" data-content-id="hrf-content-'.$faq_query->post->ID.'"><span></span>'.get_the_title().'</'.$head_tag.'>
+                      <'.$head_tag.' class="hrf-title close-faq" data-content-id="hrf-content-'.$faq_query->post->ID.'"><span></span>'.get_the_title().'</'.$head_tag.'>
                      <div class="hrf-content" id="hrf-content-'.$faq_query->post->ID.'">'.apply_filters( 'the_content', get_the_content() ).'</div>
                   </article>';
 
