@@ -1,7 +1,7 @@
 === HTML5 Responsive FAQ ===
 Contributors: efficientninja, ishanverma
 Donate link: http://www.indatos.com/
-Tags: Responsive FAQ, HTML5 FAQ, Frequently Asked Questions, FAQs, wordpress faq plugin, Accordian FAQ, Category faq
+Tags: faq, Responsive FAQ, HTML5 FAQ, Frequently Asked Questions, FAQs, wordpress faq plugin, Accordion FAQ, Category faq
 Requires at least: 3.0
 Tested up to: 4.1
 Stable tag: 1.0
@@ -20,13 +20,14 @@ Adding a Frequently Asked Questions (FAQs) section to your website, either as a 
 
    1. SEO-friendly plugin, You can select your heading types.
    2. Responsive FAQs.
-   3. Accordion effect using HTML5 and CSS3.
+   3. Accordion styles to hide/show.
    4. Add multiple Categories.
    5. Easy to use and customize the design, color, font size etc to match your theme.
    6. Option to add custom title for each category set.
    7. Can be used with Visual Composer or other content composer plugins.
    8. Easy shortcode to use.
    9. Easy to configure in admin section.
+   10. Fully compatible with all mordern and old responsive designs.
 
 
 
