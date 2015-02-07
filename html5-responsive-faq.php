@@ -6,7 +6,7 @@ Author: Aman Verma
 Author URI: http://www.indatos.com/?ref=faq
 Plugin URI: http://www.indatos.com/?ref=faq
 Description: HTML5 Responsive FAQ plugin makes it easy for you to FAQs on your site. Fully compatible with all responsive themes.
-Version: 1.1
+Version: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
