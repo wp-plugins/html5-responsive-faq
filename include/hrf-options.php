@@ -111,6 +111,14 @@ endif;
     <?php submit_button(); ?>
 
 </form>
+<h3>How to add FAQs on Page</h3>
+
+      1. Add this [hrf_faqs] shortcode to the page/post where you want to show all FAQs list.
+      2. Add this [hrf_faqs category='uncategorized'] shortcode to the page/post where you want to show specific category FAQs.
+      3. Add this [hrf_faqs category='uncategorized,wordpress,plugins'] shortcode to the page/post where you want to show multiple category FAQs.
+      4. [hrf_faqs category='uncategorized,wordpress,plugins'  title='My Awesome Title'] shortcode to the page/post where you want to show category FAQs with title/heading.
+      <br/>
+      <br/>
 <a href="http://www.indatos.com/product-feedback/?ref=faq-feedback"><img src="<?php echo plugins_url( '../images/feedback.jpg', __FILE__ );?>" alt="feedback" style="max-width:100%; width:400px; margin:20px 0"></a>
 </div>
 <?php
