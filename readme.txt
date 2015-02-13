@@ -94,6 +94,9 @@ Yes you can add multiple categories.
 
 == Changelog ==
 
+= 2.1 =
+* Awesome color pickers added.
+
 = 1.2 =
 * CSS updates and compatibility updates
 
@@ -101,5 +104,5 @@ Yes you can add multiple categories.
 * First Version
 
 == Upgrade Notice ==
-* CSS and compatibility updates.
-
+= 2.1 =
+2.1 is a major update. Added awesome color pickers to make color selection easy for you.
