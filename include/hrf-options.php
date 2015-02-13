@@ -49,12 +49,12 @@ endif;
       </tr>
       <tr valign="top">
          <th scope="row">Text color of question</th>
-         <td><input type="text" style="width:50%" name="hrf_question_text_color" value="<?php echo get_option('hrf_question_text_color', '#444444'); ?>" placeholder="#444444" /></td>
+         <td><input type="text" style="width:50%" name="hrf_question_text_color" value="<?php echo get_option('hrf_question_text_color', '#444444'); ?>" placeholder="#444444" data-default-color="#444444"  class="hrf-color-picker"/></td>
       </tr>
 
       <tr valign="top">
          <th scope="row">Background color of question</th>
-         <td><input type="text" style="width:50%" name="hrf_question_bgcolor" value="<?php echo get_option('hrf_question_bgcolor', '#ffffff'); ?>" placeholder="#ffffff" /></td>
+         <td><input type="text" style="width:50%" name="hrf_question_bgcolor" value="<?php echo get_option('hrf_question_bgcolor', '#ffffff'); ?>" placeholder="#ffffff" data-default-color="#ffffff"  class="hrf-color-picker" /></td>
       </tr>
 
       <tr valign="top">
@@ -75,12 +75,12 @@ endif;
       
       <tr valign="top">
          <th scope="row">Text color of answer</th>
-         <td><input type="text" style="width:50%" name="hrf_answer_text_color" value="<?php echo get_option('hrf_answer_text_color', '#444444'); ?>" placeholder="#444444" /></td>
+         <td><input type="text" style="width:50%" name="hrf_answer_text_color" value="<?php echo get_option('hrf_answer_text_color', '#444444'); ?>" placeholder="#444444" data-default-color="#444444"  class="hrf-color-picker"/></td>
       </tr>
 
       <tr valign="top">
          <th scope="row">Background color of answer</th>
-         <td><input type="text" style="width:50%" name="hrf_answer_bgcolor" value="<?php echo get_option('hrf_answer_bgcolor', 'ffffff'); ?>" placeholder="#ffffff" /></td>
+         <td><input type="text" style="width:50%" name="hrf_answer_bgcolor" value="<?php echo get_option('hrf_answer_bgcolor', 'ffffff'); ?>" placeholder="#ffffff" data-default-color="#ffffff"  class="hrf-color-picker" /></td>
       </tr>
 
       <tr valign="top">
@@ -98,7 +98,7 @@ endif;
       
       <tr valign="top">
          <th scope="row">Background color of bullet</th>
-         <td><input type="text" style="width:50%" name="hrf_bullets_bgcolor" value="<?php echo get_option('hrf_bullets_bgcolor', '#444444'); ?>" placeholder="#444444" /></td>
+         <td><input type="text" style="width:50%" name="hrf_bullets_bgcolor" value="<?php echo get_option('hrf_bullets_bgcolor', '#444444'); ?>" data-default-color="#444444"  class="hrf-color-picker" placeholder="#444444" class="" /></td>
       </tr>
       
       <tr valign="top">
@@ -111,6 +111,7 @@ endif;
     <?php submit_button(); ?>
 
 </form>
+<a href="http://www.indatos.com/product-feedback/?ref=faq-feedback"><img src="<?php echo plugins_url( '../images/feedback.jpg', __FILE__ );?>" alt="feedback" style="max-width:100%; width:400px; margin:20px 0"></a>
 </div>
 <?php
 }

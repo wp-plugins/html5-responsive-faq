@@ -6,7 +6,7 @@ Author: Aman Verma
 Author URI: http://www.indatos.com/?ref=faq
 Plugin URI: http://www.indatos.com/?ref=faq
 Description: HTML5 Responsive FAQ plugin makes it easy for you to FAQs on your site. Fully compatible with all responsive themes.
-Version: 1.3
+Version: 2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -60,7 +60,21 @@ require plugin_dir_path(__FILE__) . 'include/hrf-style.php';
 // Register style sheet.
 add_action( 'wp_enqueue_scripts', 'fn_hrf_scripts' );
 
-function fn_hrf_scripts() {
+function fn_hrf_scripts() 
+{
    wp_enqueue_script( 'html5-responsive-faq', plugins_url( 'html5-responsive-faq/js/hrf-script.js' ) , array('jquery') );
 }
 
+
+add_action( 'admin_enqueue_scripts', 'fn_hrf_color_picker' );
+
+function fn_hrf_color_picker( $hook ) 
+{
+
+    if( is_admin() ) {  
+        // Add the color picker css file       
+        wp_enqueue_style( 'wp-color-picker' ); 
+        // Include our custom jQuery file with WordPress Color Picker dependency
+        wp_enqueue_script( 'html5-responsive-faq', plugins_url( 'html5-responsive-faq/js/hrf-options.js' ), array( 'wp-color-picker' ), false, true ); 
+    }
+}
