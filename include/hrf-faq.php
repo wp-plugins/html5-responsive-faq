@@ -20,8 +20,8 @@ function fn_hrf_faqs($attr)
         'post_type'      => 'hrf_faq',
         'post_status'    => 'publish',
         'posts_per_page' => -1,
-        'orderby'        => 'date',
-        'order'          => 'DESC',
+        'orderby'        => 'menu_order',
+        'order'          => 'ASC',
    );
    
    if( $faq_params['category'] != '' ){

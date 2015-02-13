@@ -1,12 +1,11 @@
 <?php
 /*
-
 Plugin Name: HTML5 Responsive FAQ
 Author: Aman Verma
 Author URI: http://www.indatos.com/?ref=faq
 Plugin URI: http://www.indatos.com/?ref=faq
 Description: HTML5 Responsive FAQ plugin makes it easy for you to FAQs on your site. Fully compatible with all responsive themes.
-Version: 2.1
+Version: 2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -33,7 +32,7 @@ function register_hrf_faq() {
          'query_var'       => true,
          'exclude_from_search' => true,
          'menu_position'   => 5,
-         'supports'        => array('title','editor'),
+         'supports'        => array('title','editor', 'page-attributes'),
          'taxonomies'      => array('category'),
          'labels'          => array (
                                 'name'               => 'FAQs',

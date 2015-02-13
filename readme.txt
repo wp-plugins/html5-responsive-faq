@@ -8,12 +8,13 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-HTML5 Responsive FAQ - Multi Category FAQs can be added using shortcode, compatible with responsive themes. With custom design options.
+HTML5 Responsive FAQ - Multi Category, Custom Sorting FAQs. Add using shortcode, compatible with responsive themes. With custom design options.
 
 == Description ==
 
 HTML5 Responsive FAQ plugin makes it easy for you to FAQs on your site. Fully compatible with all responsive themes. Create multiple category FAQs, and use them either all together in one page or category wise. Options to customize the look and feel of the FAqs to match your theme style.
 Adding a Frequently Asked Questions (FAQs) section to your website, either as a full page or even just as a sidebar widget, can be a crucial tool to help your customers get the answers they need, fast. Asked Questions can be a one-stop-shop for staff, users, and anyone else who may need answers. A well written Frequently Asked Questions page can give users the answers they need without reading tedious documentation.
+Now with Sorting Options.
 
 
 = HTML5 Responsive FAQ Plugin Features: =
@@ -28,7 +29,7 @@ Adding a Frequently Asked Questions (FAQs) section to your website, either as a 
    8. Easy shortcode to use.
    9. Easy to configure in admin section.
    10. Fully compatible with all mordern and old responsive designs.
-
+   11. Custom sorting options.
 
 
 For more support visit [HTML5 Responsive FAQ](http://www.indatos.com/?ref=faq) plugin page. We will be glad to help you.
@@ -55,7 +56,8 @@ Adding New FAQ:
       2. Click on 'Add FAQ' menu option.
       3. Enter the question and answer.
       4. Click on 'Add New Category' to add a category to the FAQ.
-      5. Click on publish to create faq.
+      5. Add order# for your faq on the right sidebar in "Attributes->Order".
+      6. Click on publish to create faq.
       
 Configuration:
    
@@ -74,15 +76,21 @@ Configuration:
       13. Save Changes.
       
    
-How to add FAQs on your site:
+=How to add FAQs on your site:=
 
       1. Add this [hrf_faqs] shortcode to the page/post where you want to show all FAQs list.
       2. Add this [hrf_faqs category='uncategorized'] shortcode to the page/post where you want to show specific category FAQs.
       3. Add this [hrf_faqs category='uncategorized,wordpress,plugins'] shortcode to the page/post where you want to show multiple category FAQs.
       4. [hrf_faqs category='uncategorized,wordpress,plugins'  title='My Awesome Title'] shortcode to the page/post where you want to show category FAQs with title/heading. 
 
+=Please Vote and Enjoy=
+Your votes really make a difference! Thanks.
 
 == Frequently Asked Questions ==
+
+= Can I set the Sorting order of FAQs listing? =
+
+Yes you can set the sorting order for your FAQs. Edit the FAQ, on the right sidebar in "Attributes->Order" add the numeric order for it. Lowest one will come on top, and higher values on the bottom of FAQ list.
 
 = Can I customize the FAQ design? =
 
@@ -94,6 +102,9 @@ Yes you can add multiple categories.
 
 == Changelog ==
 
+= 2.2 =
+* Added option for sorting
+
 = 2.1 =
 * Awesome color pickers added.
 
@@ -104,5 +115,5 @@ Yes you can add multiple categories.
 * First Version
 
 == Upgrade Notice ==
-= 2.1 =
-2.1 is a major update. Added awesome color pickers to make color selection easy for you.
+= 2.2 =
+2.2 Added option for sorting
