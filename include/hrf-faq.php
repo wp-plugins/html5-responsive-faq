@@ -43,7 +43,7 @@ function fn_hrf_faqs($attr)
    else:
       $html .= "No FAQs Found";
    endif;
-   
+   wp_reset_query();
    $html .= '</div>';
    return $html;
 }

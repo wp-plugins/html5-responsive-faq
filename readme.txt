@@ -34,6 +34,9 @@ Now with Sorting Options.
 
 For more support visit [HTML5 Responsive FAQ](http://www.indatos.com/?ref=faq) plugin page. We will be glad to help you.
 
+=Please Vote and Enjoy=
+Your votes really make a difference! Thanks.
+   
 == Installation ==
 The installation of this plugin is very simple. It takes only few minutes. There are two ways to install it:
 
@@ -83,8 +86,7 @@ Configuration:
       3. Add this [hrf_faqs category='uncategorized,wordpress,plugins'] shortcode to the page/post where you want to show multiple category FAQs.
       4. [hrf_faqs category='uncategorized,wordpress,plugins'  title='My Awesome Title'] shortcode to the page/post where you want to show category FAQs with title/heading. 
 
-=Please Vote and Enjoy=
-Your votes really make a difference! Thanks.
+
 
 == Frequently Asked Questions ==
 
@@ -101,6 +103,8 @@ Yes you can customize the design, color, font size etc to match your theme.
 Yes you can add multiple categories.
 
 == Changelog ==
+= 2.4 =
+* Minor fixes
 
 = 2.2 =
 * Added option for sorting
@@ -114,6 +118,3 @@ Yes you can add multiple categories.
 = 1.0 =
 * First Version
 
-== Upgrade Notice ==
-= 2.2 =
-2.2 Added option for sorting
